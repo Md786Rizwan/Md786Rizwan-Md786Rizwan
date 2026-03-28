@@ -35,6 +35,7 @@
         "pandas"
       ],
       "last_updated": "2026-03-28",
+      "impact_metric": "Target metric: RMSE \u2193 (add latest value)",
       "health_score": 9,
       "is_stalled": false
     },
@@ -52,6 +53,7 @@
         "Jupyter"
       ],
       "last_updated": "2026-03-28",
+      "impact_metric": "Target metric: F1-score \u2191 (add latest value)",
       "health_score": 9,
       "is_stalled": false
     },
@@ -69,6 +71,7 @@
         "pandas"
       ],
       "last_updated": "2026-03-28",
+      "impact_metric": "Target metric: Recall \u2191 (add latest value)",
       "health_score": 9,
       "is_stalled": false
     },
@@ -86,6 +89,7 @@
         "matplotlib"
       ],
       "last_updated": "2026-03-28",
+      "impact_metric": "Target metric: Insight-to-action cycle time \u2193",
       "health_score": 7,
       "is_stalled": false
     },
@@ -103,6 +107,7 @@
         "chatbot"
       ],
       "last_updated": "2026-03-28",
+      "impact_metric": "Target metric: Helpful response rate \u2191",
       "health_score": 7,
       "is_stalled": false
     }

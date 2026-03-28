@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="240" viewBox="0 0 1100 240" role="img" aria-label="Completion Trend">
+  <rect x="0" y="0" width="1100" height="240" rx="18" fill="#081426"/>
+  <text x="32" y="28" fill="#D9EDFF" font-size="20" font-family="Segoe UI, Arial" font-weight="700">📈 Completion Ratio Trend (Last 12 Runs)</text>
+  <rect x="70" y="40" width="980" height="150" fill="#0B1C32" stroke="#183A63" rx="10"/>
+  <polyline points="70.0,100.0" fill="none" stroke="#00E5FF" stroke-width="4"/>
+  <text x="70.0" y="212" fill="#8FB7FF" font-size="11" text-anchor="middle" font-family="Segoe UI, Arial">03-28</text>
+</svg>

@@ -1,86 +1,21 @@
-# 🤖 Md Rizwan — AI Engineer
+# 🤖 Md Rizwan — AI Engineer in Progress
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=26&duration=2800&pause=900&color=00F5FF&center=true&vCenter=true&width=1000&lines=AI+Engineer+%7C+Machine+Learning+%7C+Deep+Learning;Building+Production-Oriented+Intelligent+Systems;Open+to+AI%2FML+Engineer+Opportunities" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=26&duration=2800&pause=900&color=00F5FF&center=true&vCenter=true&width=1000&lines=AI+Engineer+%7C+ML+%7C+DL+%7C+IoT;Building+Real-World+Intelligent+Systems;Learning+Fast%2C+Shipping+Consistently" alt="Typing SVG" />
 </p>
 
-<p align="center">
-  <a href="https://github.com/Md786Rizwan"><img src="https://img.shields.io/badge/GitHub-Md786Rizwan-0A0F1E?style=for-the-badge&logo=github"></a>
-  <a href="https://www.linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"></a>
-  <img src="https://img.shields.io/badge/Focus-AI%2FML%20Systems-00F5FF?style=for-the-badge">
-</p>
+## 👨‍💻 Profile Header
+I build real-world AI systems and track my growth with measurable progress.
 
-## 👨‍💻 About Me
-AI Engineer focused on solving real-world problems through **Machine Learning, Deep Learning, NLP, and IoT-enabled intelligence**.
-I design and ship end-to-end solutions from data exploration to model deployment and measurable outcomes.
+**Focus:** Machine Learning, Deep Learning, NLP, IoT  
+**Goal:** Become a production-ready AI Engineer  
+**Approach:** Build → Measure → Improve → Repeat
 
-- 🎯 Career Goal: **AI Engineer (ML/DL/NLP Systems)**
-- 🧠 Interests: Applied AI, intelligent automation, production-minded ML
-- 🤝 Open To: Full-time AI/ML roles, internships, and impactful collaborations
-
-## 🧰 Core Skills
-**Languages & Data**
-`Python` `SQL` `Pandas` `NumPy`
-
-**Machine Learning / AI**
-`Scikit-learn` `TensorFlow` `Deep Learning` `NLP` `Model Evaluation`
-
-**Backend & Deployment**
-`FastAPI` `GitHub Actions` `Automation Pipelines`
-
-**Domain Exposure**
-`Cybersecurity ML` `Healthcare AI` `Predictive Analytics` `Educational AI`
-
-## 🏆 Flagship Projects (Problem → Solution → Impact)
-- **Laptop Price Predictor Using ML**  
-  **Problem:** Noisy laptop specs make pricing inconsistent.  
-  **Solution:** Built a regression pipeline for data cleaning + feature engineering + model comparison.  
-  **Impact:** Enables data-driven pricing estimates and faster decision making.
-
-- **Phishing Site Classifier**  
-  **Problem:** Users are vulnerable to phishing URLs.  
-  **Solution:** Trained a classification model to identify malicious website patterns.  
-  **Impact:** Improves early detection and supports safer browsing decisions.
-
-- **Kidney Disease Classification**  
-  **Problem:** Early diagnosis signals are often missed in raw clinical data.  
-  **Solution:** Built a healthcare ML classification pipeline with preprocessing + model evaluation.  
-  **Impact:** Supports earlier risk screening and healthcare decision support.
-
-- **Exploratory Data Analysis**  
-  **Problem:** Raw datasets hide actionable insights.  
-  **Solution:** Performed structured EDA with trend, distribution, and anomaly analysis.  
-  **Impact:** Produces insight-ready reports for better project direction.
-
-- **Educational Chatbot**  
-  **Problem:** Learners need fast and contextual doubt resolution.  
-  **Solution:** Developed an NLP chatbot for interactive educational assistance.  
-  **Impact:** Improves accessibility and response speed for student learning support.
-
-## 📌 Featured Repositories
-- [Laptop_Price_Predictor_Using_ML](https://github.com/Md786Rizwan/Laptop_Price_Predictor_Using_ML)
-- [Phising_Site](https://github.com/Md786Rizwan/Phising_Site)
-- [Kidney_Disease_Classification_Project](https://github.com/Md786Rizwan/Kidney_Disease_Classification_Project)
-- [Exploratory-data-Analysis](https://github.com/Md786Rizwan/Exploratory-data-Analysis)
-- [Educational-chatbot](https://github.com/Md786Rizwan/Educational-chatbot)
-
-## 📊 GitHub Insights
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Md786Rizwan&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Md786Rizwan&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
-## 🛰️ Engineering Dashboard
 <!-- DASHBOARD_START -->
-_Dashboard not generated yet. Run: `python profile_dashboard/scripts/metrics.py && python profile_dashboard/scripts/render_readme.py`_
+_Dashboard is generating..._
 <!-- DASHBOARD_END -->
 
-## 🎯 2026 Career Roadmap
-- Build 2 production-grade AI projects with deployment + monitoring
-- Strengthen MLOps (CI/CD for models, experiment tracking)
-- Publish technical write-ups and case studies regularly
-
-## 🤝 Let’s Connect
+## 🤝 Contact
 - GitHub: https://github.com/Md786Rizwan
 - LinkedIn: https://www.linkedin.com/in/your-linkedin
 - Portfolio: https://your-portfolio-link.com

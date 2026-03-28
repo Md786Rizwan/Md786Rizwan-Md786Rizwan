@@ -23,6 +23,8 @@ def dashboard_block(data: dict) -> str:
     lines = [
         "### ⚡ Live KPI Snapshot",
         "![3D KPI HUD](profile_dashboard/generated/kpi_hud.svg)",
+        "![Completion Trend](profile_dashboard/generated/performance_trend.svg)",
+        "![Weekly Focus](profile_dashboard/generated/weekly_focus.svg)",
         "",
         "_3D-style HUD card is auto-generated every workflow run._",
         "",
@@ -31,13 +33,13 @@ def dashboard_block(data: dict) -> str:
         badge("Completion Ratio", kpis["completion_ratio"], "7cfc00"),
         "",
         "### 📊 Project Command Center",
-        "| Project | Stage | Priority | Health | Next Action |",
-        "|---|---|---|---:|---|",
+        "| Project | Stage | Priority | Health | Impact Metric | Next Action |",
+        "|---|---|---|---:|---|---|",
     ]
 
     for p in data["projects"]:
         lines.append(
-            f"| [{p['name']}]({p['url']}) | {p['stage']} | {p['priority']} | {p['health_score']}/10 | {p['next_action']} |"
+            f"| [{p['name']}]({p['url']}) | {p['stage']} | {p['priority']} | {p['health_score']}/10 | {p.get('impact_metric', 'Add KPI')} | {p['next_action']} |"
         )
 
     lines.extend([
@@ -70,7 +72,6 @@ def main() -> None:
     OUTPUT.write_text(rendered)
     print(f"Generated README at {OUTPUT}")
 
+
 if __name__ == "__main__":
     main()
-
-

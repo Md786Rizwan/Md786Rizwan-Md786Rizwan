@@ -3,7 +3,7 @@ name: Update Profile Dashboard
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "*/30 * * * *"
 
 jobs:
   update-dashboard:
@@ -21,7 +21,20 @@ jobs:
           python-version: "3.11"
 
       - name: Generate metrics
-        run: python profile_dashboard/scripts/metrics.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python profile_dashboard/scripts/activity_fetch.py
+          python profile_dashboard/scripts/metrics.py
+
+      - name: Fetch live AI/Tech news
+        env:
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+          NEWS_QUERY: artificial intelligence OR machine learning OR llm
+        run: python profile_dashboard/scripts/news_fetch.py
+
+      - name: Generate AI insights
+        run: python profile_dashboard/scripts/ai_insights.py
 
       - name: Render README
         run: python profile_dashboard/scripts/render_readme.py
@@ -33,7 +46,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md profile_dashboard/README.generated.md profile_dashboard/generated/metrics.json profile_dashboard/generated/kpi_hud.svg
+          git add README.md profile_dashboard/README.generated.md profile_dashboard/generated/metrics.json profile_dashboard/generated/metrics_history.json profile_dashboard/generated/activity.json profile_dashboard/generated/news.json profile_dashboard/generated/ai_insights.json profile_dashboard/generated/kpi_hud.svg profile_dashboard/generated/performance_trend.svg profile_dashboard/generated/weekly_focus.svg
 
           if git diff --cached --quiet; then
             echo "No changes to commit."

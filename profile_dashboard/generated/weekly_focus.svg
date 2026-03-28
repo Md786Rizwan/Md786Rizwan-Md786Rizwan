@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="220" viewBox="0 0 1100 220" role="img" aria-label="Weekly Focus">
+  <rect x="0" y="0" width="1100" height="220" rx="18" fill="#0A1020"/>
+  <rect x="20" y="20" width="1060" height="180" rx="12" fill="#0E1A30" stroke="#2A4A75"/>
+  <text x="40" y="54" fill="#F6FAFF" font-size="24" font-family="Segoe UI, Arial" font-weight="700">🎯 Weekly Focus Card</text>
+  <text x="40" y="84" fill="#8FC3FF" font-size="14" font-family="Segoe UI, Arial">Updated: 2026-03-28</text>
+
+  <text x="40" y="120" fill="#C4DCFF" font-size="15" font-family="Segoe UI, Arial">Sprint:</text>
+  <text x="130" y="120" fill="#00F0FF" font-size="15" font-family="Segoe UI, Arial">Week 13 Sprint</text>
+
+  <text x="40" y="146" fill="#C4DCFF" font-size="15" font-family="Segoe UI, Arial">Objective:</text>
+  <text x="130" y="146" fill="#FFFFFF" font-size="15" font-family="Segoe UI, Arial">Improve phishing classifier evaluation depth</text>
+
+  <text x="40" y="172" fill="#C4DCFF" font-size="15" font-family="Segoe UI, Arial">Main Repo:</text>
+  <text x="130" y="172" fill="#8DFFB5" font-size="15" font-family="Segoe UI, Arial">Phising_Site</text>
+
+  <text x="560" y="120" fill="#C4DCFF" font-size="15" font-family="Segoe UI, Arial">Target Metric:</text>
+  <text x="680" y="120" fill="#FFB4F3" font-size="15" font-family="Segoe UI, Arial">F1-score +0.03</text>
+
+  <text x="560" y="146" fill="#C4DCFF" font-size="15" font-family="Segoe UI, Arial">Milestone:</text>
+  <text x="680" y="146" fill="#FFFFFF" font-size="15" font-family="Segoe UI, Arial">Add threshold tuning + publish confusion matrix</text>
+</svg>

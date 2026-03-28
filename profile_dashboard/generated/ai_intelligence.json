@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-03-28T19:44:43.493653Z",
+  "intelligence": [
+    {
+      "name": "Laptop_Price_Predictor_Using_ML",
+      "maturity_level": "Execution",
+      "missing_parts": [
+        "feature drift checks",
+        "error analysis dashboard",
+        "api deployment"
+      ],
+      "improvement_suggestion": "Improve Laptop_Price_Predictor_Using_ML by focusing on feature drift checks this sprint."
+    },
+    {
+      "name": "Phising_Site",
+      "maturity_level": "Execution",
+      "missing_parts": [
+        "false-positive reduction",
+        "url feature enrichment",
+        "monitoring alerts"
+      ],
+      "improvement_suggestion": "Improve Phising_Site by focusing on false-positive reduction this sprint."
+    },
+    {
+      "name": "Kidney_Disease_Classification_Project",
+      "maturity_level": "Execution",
+      "missing_parts": [
+        "class imbalance strategy",
+        "clinical validation notes",
+        "model explainability report"
+      ],
+      "improvement_suggestion": "Improve Kidney_Disease_Classification_Project by focusing on class imbalance strategy this sprint."
+    },
+    {
+      "name": "Exploratory-data-Analysis",
+      "maturity_level": "Validation",
+      "missing_parts": [
+        "automated report pipeline",
+        "storytelling dashboard",
+        "reusable templates"
+      ],
+      "improvement_suggestion": "Improve Exploratory-data-Analysis by focusing on automated report pipeline this sprint."
+    },
+    {
+      "name": "Educational-chatbot",
+      "maturity_level": "Validation",
+      "missing_parts": [
+        "response quality evaluation",
+        "retrieval grounding",
+        "latency optimization"
+      ],
+      "improvement_suggestion": "Improve Educational-chatbot by focusing on response quality evaluation this sprint."
+    }
+  ]
+}

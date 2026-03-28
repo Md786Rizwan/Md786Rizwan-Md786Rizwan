@@ -22,6 +22,10 @@ def dashboard_block(data: dict) -> str:
     kpis = data["kpis"]
     lines = [
         "### ⚡ Live KPI Snapshot",
+        "![3D KPI HUD](profile_dashboard/generated/kpi_hud.svg)",
+        "",
+        "_3D-style HUD card is auto-generated every workflow run._",
+        "",
         badge("Active Projects", kpis["active_projects"]),
         badge("Stalled Projects", kpis["stalled_projects"], "ff5c8a"),
         badge("Completion Ratio", kpis["completion_ratio"], "7cfc00"),
@@ -66,6 +70,8 @@ def main() -> None:
     OUTPUT.write_text(rendered)
     print(f"Generated README at {OUTPUT}")
 
+if __name__ == "__main__":
+    main()
 
 if __name__ == "__main__":
     main()

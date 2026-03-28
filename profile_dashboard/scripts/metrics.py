@@ -7,6 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 PROJECTS_FILE = ROOT / "projects.json"
 FOCUS_FILE = ROOT / "weekly_focus.json"
+ACTIVITY_FILE = ROOT / "generated" / "activity.json"
 OUTPUT_FILE = ROOT / "generated" / "metrics.json"
 HISTORY_FILE = ROOT / "generated" / "metrics_history.json"
 HUD_FILE = ROOT / "generated" / "kpi_hud.svg"
@@ -99,6 +100,16 @@ def main() -> None:
         2,
     )
 
+    activity = {"recent_push_events": 0, "active_repo_count": 0}
+    if ACTIVITY_FILE.exists():
+        activity = json.loads(ACTIVITY_FILE.read_text())
+
+    avg_accuracy_like = round(
+        sum(float(p.get("metric_value", 0.0)) for p in enriched) / max(len(enriched), 1),
+        2,
+    )
+    activity_score = min(100, activity.get("recent_push_events", 0) * 5 + activity.get("active_repo_count", 0) * 8)
+
     metrics = {
         "generated_at": today.isoformat(),
         "owner": raw.get("owner", "unknown"),
@@ -106,6 +117,9 @@ def main() -> None:
             "active_projects": len(enriched),
             "stalled_projects": stalled,
             "completion_ratio": completion_ratio,
+            "accuracy_score": avg_accuracy_like,
+            "activity_score": activity_score,
+            "last_updated": today.isoformat(),
         },
         "top_next_actions": [
             {

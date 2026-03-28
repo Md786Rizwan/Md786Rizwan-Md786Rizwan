@@ -61,3 +61,9 @@ _Last auto-update: 2026-03-28_
 ## 🤝 Connect
 - GitHub: https://github.com/Md786Rizwan
 - LinkedIn: Add your LinkedIn URL here
+
+- ## 📈 GitHub Stats
+
+![Stats](https://github-readme-stats.vercel.app/api?username=Md786Rizwan&show_icons=true&theme=radical)
+
+![Streak](https://streak-stats.demolab.com?user=Md786Rizwan&theme=radical)

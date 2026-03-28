@@ -15,7 +15,8 @@
         "pandas"
       ],
       "last_updated": "2026-03-28",
-      "impact_metric": "Target metric: RMSE \u2193 (add latest value)"
+      "impact_metric": "Target metric: RMSE \u2193 (add latest value)",
+      "metric_value": 0.87
     },
     {
       "name": "Phising_Site",
@@ -31,7 +32,8 @@
         "Jupyter"
       ],
       "last_updated": "2026-03-28",
-      "impact_metric": "Target metric: F1-score \u2191 (add latest value)"
+      "impact_metric": "Target metric: F1-score \u2191 (add latest value)",
+      "metric_value": 0.93
     },
     {
       "name": "Kidney_Disease_Classification_Project",
@@ -47,7 +49,8 @@
         "pandas"
       ],
       "last_updated": "2026-03-28",
-      "impact_metric": "Target metric: Recall \u2191 (add latest value)"
+      "impact_metric": "Target metric: Recall \u2191 (add latest value)",
+      "metric_value": 0.91
     },
     {
       "name": "Exploratory-data-Analysis",
@@ -63,7 +66,8 @@
         "matplotlib"
       ],
       "last_updated": "2026-03-28",
-      "impact_metric": "Target metric: Insight-to-action cycle time \u2193"
+      "impact_metric": "Target metric: Insight-to-action cycle time \u2193",
+      "metric_value": 0.79
     },
     {
       "name": "Educational-chatbot",
@@ -79,7 +83,8 @@
         "chatbot"
       ],
       "last_updated": "2026-03-28",
-      "impact_metric": "Target metric: Helpful response rate \u2191"
+      "impact_metric": "Target metric: Helpful response rate \u2191",
+      "metric_value": 0.84
     }
   ]
 }

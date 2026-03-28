@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-03-28",
+  "experiments": [
+    {
+      "project": "Laptop_Price_Predictor_Using_ML",
+      "model_version": "v1.2",
+      "metric_name": "Target metric: RMSE \u2193 (add latest value)",
+      "metric_value": 0.87,
+      "last_change": "2026-03-28"
+    },
+    {
+      "project": "Phising_Site",
+      "model_version": "v1.1",
+      "metric_name": "Target metric: F1-score \u2191 (add latest value)",
+      "metric_value": 0.93,
+      "last_change": "2026-03-28"
+    },
+    {
+      "project": "Kidney_Disease_Classification_Project",
+      "model_version": "v1.3",
+      "metric_name": "Target metric: Recall \u2191 (add latest value)",
+      "metric_value": 0.91,
+      "last_change": "2026-03-28"
+    },
+    {
+      "project": "Exploratory-data-Analysis",
+      "model_version": "v0.9",
+      "metric_name": "Target metric: Insight-to-action cycle time \u2193",
+      "metric_value": 0.79,
+      "last_change": "2026-03-28"
+    },
+    {
+      "project": "Educational-chatbot",
+      "model_version": "v1.0",
+      "metric_name": "Target metric: Helpful response rate \u2191",
+      "metric_value": 0.84,
+      "last_change": "2026-03-28"
+    }
+  ]
+}

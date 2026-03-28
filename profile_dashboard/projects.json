@@ -16,7 +16,13 @@
       ],
       "last_updated": "2026-03-28",
       "impact_metric": "Target metric: RMSE \u2193 (add latest value)",
-      "metric_value": 0.87
+      "metric_value": 0.87,
+      "missing_parts": [
+        "feature drift checks",
+        "error analysis dashboard",
+        "api deployment"
+      ],
+      "model_version": "v1.2"
     },
     {
       "name": "Phising_Site",
@@ -33,7 +39,13 @@
       ],
       "last_updated": "2026-03-28",
       "impact_metric": "Target metric: F1-score \u2191 (add latest value)",
-      "metric_value": 0.93
+      "metric_value": 0.93,
+      "missing_parts": [
+        "false-positive reduction",
+        "url feature enrichment",
+        "monitoring alerts"
+      ],
+      "model_version": "v1.1"
     },
     {
       "name": "Kidney_Disease_Classification_Project",
@@ -50,7 +62,13 @@
       ],
       "last_updated": "2026-03-28",
       "impact_metric": "Target metric: Recall \u2191 (add latest value)",
-      "metric_value": 0.91
+      "metric_value": 0.91,
+      "missing_parts": [
+        "class imbalance strategy",
+        "clinical validation notes",
+        "model explainability report"
+      ],
+      "model_version": "v1.3"
     },
     {
       "name": "Exploratory-data-Analysis",
@@ -67,7 +85,13 @@
       ],
       "last_updated": "2026-03-28",
       "impact_metric": "Target metric: Insight-to-action cycle time \u2193",
-      "metric_value": 0.79
+      "metric_value": 0.79,
+      "missing_parts": [
+        "automated report pipeline",
+        "storytelling dashboard",
+        "reusable templates"
+      ],
+      "model_version": "v0.9"
     },
     {
       "name": "Educational-chatbot",
@@ -84,7 +108,14 @@
       ],
       "last_updated": "2026-03-28",
       "impact_metric": "Target metric: Helpful response rate \u2191",
-      "metric_value": 0.84
+      "metric_value": 0.84,
+      "missing_parts": [
+        "response quality evaluation",
+        "retrieval grounding",
+        "latency optimization"
+      ],
+      "model_version": "v1.0"
     }
-  ]
+  ],
+  "profile_repo": "Md786Rizwan/Md786Rizwan"
 }

@@ -1,0 +1,7 @@
+{
+  "sprint": "Week 13 Sprint",
+  "objective": "Improve phishing classifier evaluation depth",
+  "main_repo": "Phising_Site",
+  "target_metric": "F1-score +0.03",
+  "milestone": "Add threshold tuning + publish confusion matrix"
+}

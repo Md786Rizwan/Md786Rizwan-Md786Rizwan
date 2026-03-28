@@ -4,7 +4,10 @@
   "kpis": {
     "active_projects": 5,
     "stalled_projects": 0,
-    "completion_ratio": 0.6
+    "completion_ratio": 0.6,
+    "accuracy_score": 0.87,
+    "activity_score": 0,
+    "last_updated": "2026-03-28"
   },
   "top_next_actions": [
     {
@@ -36,6 +39,7 @@
       ],
       "last_updated": "2026-03-28",
       "impact_metric": "Target metric: RMSE \u2193 (add latest value)",
+      "metric_value": 0.87,
       "health_score": 9,
       "is_stalled": false
     },
@@ -54,6 +58,7 @@
       ],
       "last_updated": "2026-03-28",
       "impact_metric": "Target metric: F1-score \u2191 (add latest value)",
+      "metric_value": 0.93,
       "health_score": 9,
       "is_stalled": false
     },
@@ -72,6 +77,7 @@
       ],
       "last_updated": "2026-03-28",
       "impact_metric": "Target metric: Recall \u2191 (add latest value)",
+      "metric_value": 0.91,
       "health_score": 9,
       "is_stalled": false
     },
@@ -90,6 +96,7 @@
       ],
       "last_updated": "2026-03-28",
       "impact_metric": "Target metric: Insight-to-action cycle time \u2193",
+      "metric_value": 0.79,
       "health_score": 7,
       "is_stalled": false
     },
@@ -108,6 +115,7 @@
       ],
       "last_updated": "2026-03-28",
       "impact_metric": "Target metric: Helpful response rate \u2191",
+      "metric_value": 0.84,
       "health_score": 7,
       "is_stalled": false
     }

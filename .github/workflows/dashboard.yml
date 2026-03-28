@@ -45,16 +45,12 @@ jobs:
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md profile_dashboard/README.generated.md profile_dashboard/generated/metrics.json profile_dashboard/generated/metrics_history.json profile_dashboard/generated/activity.json profile_dashboard/generated/news.json profile_dashboard/generated/ai_insights.json profile_dashboard/generated/kpi_hud.svg profile_dashboard/generated/performance_trend.svg profile_dashboard/generated/weekly_focus.svg
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-            exit 0
-          fi
-
-          git commit -m "chore: auto-update profile dashboard"
-          git push || {
-            echo "::error::Push denied (403). In repo Settings > Actions > General, set Workflow permissions to 'Read and write permissions', then rerun."
-            exit 1
-          }
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+      
+          git add .
+      
+          git commit -m "chore: auto-update profile dashboard" || echo "No changes"
+      
+          git pull --rebase origin main   # ✅ IMPORTANT FIX
+      
+          git push

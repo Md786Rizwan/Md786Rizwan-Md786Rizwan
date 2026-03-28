@@ -21,6 +21,10 @@ AI Engineer passionate about solving real-world problems using **Machine Learnin
 ## 🛰️ Engineering Dashboard
 <!-- DASHBOARD_START -->
 ### ⚡ Live KPI Snapshot
+![3D KPI HUD](profile_dashboard/generated/kpi_hud.svg)
+
+_3D-style HUD card is auto-generated every workflow run._
+
 ![Active Projects](https://img.shields.io/badge/Active%20Projects-5-00f5ff?style=for-the-badge)
 ![Stalled Projects](https://img.shields.io/badge/Stalled%20Projects-0-ff5c8a?style=for-the-badge)
 ![Completion Ratio](https://img.shields.io/badge/Completion%20Ratio-0.6-7cfc00?style=for-the-badge)
@@ -49,4 +53,4 @@ _Last auto-update: 2026-03-28_
 
 ## 🤝 Connect
 - GitHub: https://github.com/Md786Rizwan
-- LinkedIn: Add your LinkedIn URL here
+- LinkedIn: https://www.linkedin.com/in/md-rizwan-b81246234/

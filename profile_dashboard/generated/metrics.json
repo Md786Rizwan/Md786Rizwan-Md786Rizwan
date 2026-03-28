@@ -1,28 +1,17 @@
 {
   "generated_at": "2026-03-28",
   "owner": "Md786Rizwan",
+  "profile_repo": "Md786Rizwan/Md786Rizwan",
   "kpis": {
     "active_projects": 5,
     "stalled_projects": 0,
     "completion_ratio": 0.6,
     "accuracy_score": 0.87,
-    "activity_score": 0,
+    "activity_score": 100,
+    "consistency_score": 100,
+    "consistency_label": "High",
     "last_updated": "2026-03-28"
   },
-  "top_next_actions": [
-    {
-      "name": "Laptop_Price_Predictor_Using_ML",
-      "next_action": "Add model comparison (Linear vs RF/XGBoost)"
-    },
-    {
-      "name": "Phising_Site",
-      "next_action": "Add precision-recall analysis + threshold tuning"
-    },
-    {
-      "name": "Kidney_Disease_Classification_Project",
-      "next_action": "Add explainability report (feature importance)"
-    }
-  ],
   "projects": [
     {
       "name": "Laptop_Price_Predictor_Using_ML",
@@ -40,7 +29,14 @@
       "last_updated": "2026-03-28",
       "impact_metric": "Target metric: RMSE \u2193 (add latest value)",
       "metric_value": 0.87,
+      "missing_parts": [
+        "feature drift checks",
+        "error analysis dashboard",
+        "api deployment"
+      ],
+      "model_version": "v1.2",
       "health_score": 9,
+      "risk": "low",
       "is_stalled": false
     },
     {
@@ -59,7 +55,14 @@
       "last_updated": "2026-03-28",
       "impact_metric": "Target metric: F1-score \u2191 (add latest value)",
       "metric_value": 0.93,
+      "missing_parts": [
+        "false-positive reduction",
+        "url feature enrichment",
+        "monitoring alerts"
+      ],
+      "model_version": "v1.1",
       "health_score": 9,
+      "risk": "low",
       "is_stalled": false
     },
     {
@@ -78,7 +81,14 @@
       "last_updated": "2026-03-28",
       "impact_metric": "Target metric: Recall \u2191 (add latest value)",
       "metric_value": 0.91,
+      "missing_parts": [
+        "class imbalance strategy",
+        "clinical validation notes",
+        "model explainability report"
+      ],
+      "model_version": "v1.3",
       "health_score": 9,
+      "risk": "low",
       "is_stalled": false
     },
     {
@@ -97,7 +107,14 @@
       "last_updated": "2026-03-28",
       "impact_metric": "Target metric: Insight-to-action cycle time \u2193",
       "metric_value": 0.79,
+      "missing_parts": [
+        "automated report pipeline",
+        "storytelling dashboard",
+        "reusable templates"
+      ],
+      "model_version": "v0.9",
       "health_score": 7,
+      "risk": "low",
       "is_stalled": false
     },
     {
@@ -116,8 +133,42 @@
       "last_updated": "2026-03-28",
       "impact_metric": "Target metric: Helpful response rate \u2191",
       "metric_value": 0.84,
+      "missing_parts": [
+        "response quality evaluation",
+        "retrieval grounding",
+        "latency optimization"
+      ],
+      "model_version": "v1.0",
       "health_score": 7,
+      "risk": "low",
       "is_stalled": false
+    }
+  ],
+  "smart_next_actions": [
+    {
+      "name": "Laptop_Price_Predictor_Using_ML",
+      "action": "Add model comparison (Linear vs RF/XGBoost)",
+      "priority": "high"
+    },
+    {
+      "name": "Phising_Site",
+      "action": "Add precision-recall analysis + threshold tuning",
+      "priority": "high"
+    },
+    {
+      "name": "Kidney_Disease_Classification_Project",
+      "action": "Add explainability report (feature importance)",
+      "priority": "high"
+    },
+    {
+      "name": "Exploratory-data-Analysis",
+      "action": "Convert notebooks to reusable EDA report template",
+      "priority": "medium"
+    },
+    {
+      "name": "Educational-chatbot",
+      "action": "Add evaluation set and response quality rubric",
+      "priority": "medium"
     }
   ]
 }

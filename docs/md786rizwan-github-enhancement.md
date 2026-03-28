@@ -101,3 +101,6 @@ What we implemented instead:
 - A generated **3D-style HUD SVG**: `profile_dashboard/generated/kpi_hud.svg`
 - README embeds the SVG so it looks futuristic.
 - Workflow refreshes every 3 hours (`cron: 0 */3 * * *`) to feel near-real-time.
+
+For top 1% profile tuning (pinning strategy, KPI upgrades, recruiter positioning), see:
+`docs/top1-profile-recommendations.md`

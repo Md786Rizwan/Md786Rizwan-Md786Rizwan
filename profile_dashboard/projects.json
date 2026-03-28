@@ -9,8 +9,13 @@
       "priority": "high",
       "status": "active",
       "next_action": "Add model comparison (Linear vs RF/XGBoost)",
-      "tech": ["Python", "scikit-learn", "pandas"],
-      "last_updated": "2026-03-28"
+      "tech": [
+        "Python",
+        "scikit-learn",
+        "pandas"
+      ],
+      "last_updated": "2026-03-28",
+      "impact_metric": "Target metric: RMSE \u2193 (add latest value)"
     },
     {
       "name": "Phising_Site",
@@ -20,8 +25,13 @@
       "priority": "high",
       "status": "active",
       "next_action": "Add precision-recall analysis + threshold tuning",
-      "tech": ["Python", "ML", "Jupyter"],
-      "last_updated": "2026-03-28"
+      "tech": [
+        "Python",
+        "ML",
+        "Jupyter"
+      ],
+      "last_updated": "2026-03-28",
+      "impact_metric": "Target metric: F1-score \u2191 (add latest value)"
     },
     {
       "name": "Kidney_Disease_Classification_Project",
@@ -31,8 +41,13 @@
       "priority": "high",
       "status": "active",
       "next_action": "Add explainability report (feature importance)",
-      "tech": ["Python", "ML", "pandas"],
-      "last_updated": "2026-03-28"
+      "tech": [
+        "Python",
+        "ML",
+        "pandas"
+      ],
+      "last_updated": "2026-03-28",
+      "impact_metric": "Target metric: Recall \u2191 (add latest value)"
     },
     {
       "name": "Exploratory-data-Analysis",
@@ -42,8 +57,13 @@
       "priority": "medium",
       "status": "active",
       "next_action": "Convert notebooks to reusable EDA report template",
-      "tech": ["Python", "pandas", "matplotlib"],
-      "last_updated": "2026-03-28"
+      "tech": [
+        "Python",
+        "pandas",
+        "matplotlib"
+      ],
+      "last_updated": "2026-03-28",
+      "impact_metric": "Target metric: Insight-to-action cycle time \u2193"
     },
     {
       "name": "Educational-chatbot",
@@ -53,8 +73,13 @@
       "priority": "medium",
       "status": "active",
       "next_action": "Add evaluation set and response quality rubric",
-      "tech": ["Python", "NLP", "chatbot"],
-      "last_updated": "2026-03-28"
+      "tech": [
+        "Python",
+        "NLP",
+        "chatbot"
+      ],
+      "last_updated": "2026-03-28",
+      "impact_metric": "Target metric: Helpful response rate \u2191"
     }
   ]
 }

@@ -7,6 +7,9 @@ ROOT = Path(__file__).resolve().parents[1]
 TEMPLATE = ROOT / "README.template.md"
 OUTPUT = ROOT / "README.generated.md"
 METRICS = ROOT / "generated" / "metrics.json"
+NEWS = ROOT / "generated" / "news.json"
+INSIGHTS = ROOT / "generated" / "ai_insights.json"
+HISTORY = ROOT / "generated" / "metrics_history.json"
 
 START = "<!-- DASHBOARD_START -->"
 END = "<!-- DASHBOARD_END -->"
@@ -18,7 +21,18 @@ def badge(label: str, value: str, color: str = "00f5ff") -> str:
     return f"![{label}](https://img.shields.io/badge/{safe_label}-{safe_value}-{color}?style=for-the-badge)"
 
 
-def dashboard_block(data: dict) -> str:
+def build_timeline(history: list[dict]) -> list[str]:
+    lines = ["### 📅 Build Timeline"]
+    for item in history[-4:]:
+        lines.append(
+            f"- **{item.get('date')}** — completion: `{item.get('completion_ratio')}`, avg health: `{item.get('avg_health')}`"
+        )
+    if len(lines) == 1:
+        lines.append("- No history yet.")
+    return lines
+
+
+def dashboard_block(data: dict, news: dict, insights: dict, history: list[dict]) -> str:
     kpis = data["kpis"]
     lines = [
         "### ⚡ Live KPI Snapshot",
@@ -26,11 +40,12 @@ def dashboard_block(data: dict) -> str:
         "![Completion Trend](profile_dashboard/generated/performance_trend.svg)",
         "![Weekly Focus](profile_dashboard/generated/weekly_focus.svg)",
         "",
-        "_3D-style HUD card is auto-generated every workflow run._",
-        "",
         badge("Active Projects", kpis["active_projects"]),
         badge("Stalled Projects", kpis["stalled_projects"], "ff5c8a"),
         badge("Completion Ratio", kpis["completion_ratio"], "7cfc00"),
+        badge("Accuracy Score", kpis.get("accuracy_score", "n/a"), "3da5ff"),
+        badge("Activity Score", kpis.get("activity_score", "n/a"), "ffa500"),
+        badge("Last Updated", kpis.get("last_updated", "n/a"), "9b59b6"),
         "",
         "### 📊 Project Command Center",
         "| Project | Stage | Priority | Health | Impact Metric | Next Action |",
@@ -46,9 +61,26 @@ def dashboard_block(data: dict) -> str:
         "",
         "### 🤖 Top 3 Next Actions",
     ])
-
     for idx, item in enumerate(data["top_next_actions"], start=1):
         lines.append(f"{idx}. **{item['name']}** — {item['next_action']}")
+
+    lines.extend(["", "### 📰 Live AI/Tech News"])
+    for item in news.get("articles", [])[:5]:
+        lines.append(f"- [{item.get('title','Untitled')}]({item.get('url','#')}) — *{item.get('source','source')}*")
+
+    lines.extend(["", "### 🧠 AI Insights"])
+    for rec in insights.get("project_recommendations", [])[:3]:
+        lines.append(f"- {rec}")
+    for learn in insights.get("learning_recommendations", [])[:3]:
+        lines.append(f"- 💡 {learn}")
+
+    lines.extend(["", "### 📈 Activity Graph"])
+    owner = data.get("owner", "Md786Rizwan")
+    lines.append(
+        f"![activity graph](https://github-readme-activity-graph.vercel.app/graph?username={owner}&theme=tokyo-night&hide_border=true)"
+    )
+
+    lines.extend([""] + build_timeline(history))
 
     lines.append("")
     lines.append(f"_Last auto-update: {data['generated_at']}_")
@@ -67,7 +99,11 @@ def replace_section(text: str, new_block: str) -> str:
 def main() -> None:
     template_text = TEMPLATE.read_text()
     metrics = json.loads(METRICS.read_text())
-    block = dashboard_block(metrics)
+    news = json.loads(NEWS.read_text()) if NEWS.exists() else {"articles": []}
+    insights = json.loads(INSIGHTS.read_text()) if INSIGHTS.exists() else {"project_recommendations": [], "learning_recommendations": []}
+    history = json.loads(HISTORY.read_text()) if HISTORY.exists() else []
+
+    block = dashboard_block(metrics, news, insights, history)
     rendered = replace_section(template_text, block)
     OUTPUT.write_text(rendered)
     print(f"Generated README at {OUTPUT}")

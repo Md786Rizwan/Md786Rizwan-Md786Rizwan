@@ -74,12 +74,15 @@ I design and ship end-to-end solutions from data exploration to model deployment
 <!-- DASHBOARD_START -->
 ### ⚡ Live KPI Snapshot
 ![3D KPI HUD](profile_dashboard/generated/kpi_hud.svg)
-
-_3D-style HUD card is auto-generated every workflow run._
+![Completion Trend](profile_dashboard/generated/performance_trend.svg)
+![Weekly Focus](profile_dashboard/generated/weekly_focus.svg)
 
 ![Active Projects](https://img.shields.io/badge/Active%20Projects-5-00f5ff?style=for-the-badge)
 ![Stalled Projects](https://img.shields.io/badge/Stalled%20Projects-0-ff5c8a?style=for-the-badge)
 ![Completion Ratio](https://img.shields.io/badge/Completion%20Ratio-0.6-7cfc00?style=for-the-badge)
+![Accuracy Score](https://img.shields.io/badge/Accuracy%20Score-0.87-3da5ff?style=for-the-badge)
+![Activity Score](https://img.shields.io/badge/Activity%20Score-0-ffa500?style=for-the-badge)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-03-28-9b59b6?style=for-the-badge)
 
 ### 📊 Project Command Center
 | Project | Stage | Priority | Health | Impact Metric | Next Action |
@@ -94,6 +97,23 @@ _3D-style HUD card is auto-generated every workflow run._
 1. **Laptop_Price_Predictor_Using_ML** — Add model comparison (Linear vs RF/XGBoost)
 2. **Phising_Site** — Add precision-recall analysis + threshold tuning
 3. **Kidney_Disease_Classification_Project** — Add explainability report (feature importance)
+
+### 📰 Live AI/Tech News
+- [Set NEWS_API_KEY secret to enable live AI/Tech news feed.](https://newsapi.org/) — *system*
+
+### 🧠 AI Insights
+- Prioritize Laptop_Price_Predictor_Using_ML: Add model comparison (Linear vs RF/XGBoost)
+- Prioritize Phising_Site: Add precision-recall analysis + threshold tuning
+- Prioritize Kidney_Disease_Classification_Project: Add explainability report (feature importance)
+- 💡 Read: Set NEWS_API_KEY secret to enable live AI/Tech news feed.
+- 💡 Improve project closure by moving at least one POC to MVP this week.
+- 💡 Increase commit cadence: target 1 meaningful push every 2 days.
+
+### 📈 Activity Graph
+![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Md786Rizwan&theme=tokyo-night&hide_border=true)
+
+### 📅 Build Timeline
+- **2026-03-28** — completion: `0.6`, avg health: `8.2`
 
 _Last auto-update: 2026-03-28_
 <!-- DASHBOARD_END -->

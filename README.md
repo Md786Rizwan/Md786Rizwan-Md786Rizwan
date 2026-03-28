@@ -60,7 +60,7 @@ _Last auto-update: 2026-03-28_
 
 ## 🤝 Connect
 - GitHub: https://github.com/Md786Rizwan
-- LinkedIn: Add your LinkedIn URL here
+- LinkedIn: https://www.linkedin.com/in/md-rizwan-b81246234/
 
 - ## 📈 GitHub Stats
 

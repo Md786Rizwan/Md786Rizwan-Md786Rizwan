@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-03-28",
+  "owner": "Md786Rizwan",
+  "kpis": {
+    "active_projects": 5,
+    "stalled_projects": 0,
+    "completion_ratio": 0.6
+  },
+  "top_next_actions": [
+    {
+      "name": "Laptop_Price_Predictor_Using_ML",
+      "next_action": "Add model comparison (Linear vs RF/XGBoost)"
+    },
+    {
+      "name": "Phising_Site",
+      "next_action": "Add precision-recall analysis + threshold tuning"
+    },
+    {
+      "name": "Kidney_Disease_Classification_Project",
+      "next_action": "Add explainability report (feature importance)"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Laptop_Price_Predictor_Using_ML",
+      "url": "https://github.com/Md786Rizwan/Laptop_Price_Predictor_Using_ML",
+      "domain": "Regression / Price Prediction",
+      "stage": "mvp",
+      "priority": "high",
+      "status": "active",
+      "next_action": "Add model comparison (Linear vs RF/XGBoost)",
+      "tech": [
+        "Python",
+        "scikit-learn",
+        "pandas"
+      ],
+      "last_updated": "2026-03-28",
+      "health_score": 9,
+      "is_stalled": false
+    },
+    {
+      "name": "Phising_Site",
+      "url": "https://github.com/Md786Rizwan/Phising_Site",
+      "domain": "Cybersecurity / Classification",
+      "stage": "mvp",
+      "priority": "high",
+      "status": "active",
+      "next_action": "Add precision-recall analysis + threshold tuning",
+      "tech": [
+        "Python",
+        "ML",
+        "Jupyter"
+      ],
+      "last_updated": "2026-03-28",
+      "health_score": 9,
+      "is_stalled": false
+    },
+    {
+      "name": "Kidney_Disease_Classification_Project",
+      "url": "https://github.com/Md786Rizwan/Kidney_Disease_Classification_Project",
+      "domain": "Healthcare AI / Classification",
+      "stage": "mvp",
+      "priority": "high",
+      "status": "active",
+      "next_action": "Add explainability report (feature importance)",
+      "tech": [
+        "Python",
+        "ML",
+        "pandas"
+      ],
+      "last_updated": "2026-03-28",
+      "health_score": 9,
+      "is_stalled": false
+    },
+    {
+      "name": "Exploratory-data-Analysis",
+      "url": "https://github.com/Md786Rizwan/Exploratory-data-Analysis",
+      "domain": "Data Analytics / EDA",
+      "stage": "poc",
+      "priority": "medium",
+      "status": "active",
+      "next_action": "Convert notebooks to reusable EDA report template",
+      "tech": [
+        "Python",
+        "pandas",
+        "matplotlib"
+      ],
+      "last_updated": "2026-03-28",
+      "health_score": 7,
+      "is_stalled": false
+    },
+    {
+      "name": "Educational-chatbot",
+      "url": "https://github.com/Md786Rizwan/Educational-chatbot",
+      "domain": "NLP / Conversational AI",
+      "stage": "poc",
+      "priority": "medium",
+      "status": "active",
+      "next_action": "Add evaluation set and response quality rubric",
+      "tech": [
+        "Python",
+        "NLP",
+        "chatbot"
+      ],
+      "last_updated": "2026-03-28",
+      "health_score": 7,
+      "is_stalled": false
+    }
+  ]
+}

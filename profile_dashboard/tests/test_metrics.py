@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from profile_dashboard.scripts.metrics import health_score
+from profile_dashboard.scripts.metrics import health_score, load_json_list
 
 
 class TestMetrics(unittest.TestCase):
@@ -27,6 +27,16 @@ class TestMetrics(unittest.TestCase):
         fresh = health_score({"priority": "medium", "stage": "poc", "last_updated": "2026-03-25"}, today)
         stale = health_score({"priority": "medium", "stage": "poc", "last_updated": "2026-01-01"}, today)
         self.assertGreater(fresh, stale)
+
+    def test_load_json_list_empty_file(self):
+        tmp = Path("profile_dashboard/generated/.tmp_empty_history.json")
+        tmp.parent.mkdir(parents=True, exist_ok=True)
+        tmp.write_text("")
+        try:
+            parsed = load_json_list(tmp)
+            self.assertEqual(parsed, [])
+        finally:
+            tmp.unlink(missing_ok=True)
 
 
 if __name__ == "__main__":

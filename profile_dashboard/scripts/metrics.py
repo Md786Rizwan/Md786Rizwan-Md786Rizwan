@@ -40,7 +40,7 @@ def consistency_score(projects: list[dict], today: dt.date) -> tuple[int, str]:
 
 
 def update_history(today: dt.date, kpis: dict) -> list[dict]:
-    history = json.loads(HISTORY_FILE.read_text()) if HISTORY_FILE.exists() else []
+    history = load_json_list(HISTORY_FILE)
     key = today.isoformat()
     history = [h for h in history if h.get("date") != key]
     history.append(
@@ -54,6 +54,19 @@ def update_history(today: dt.date, kpis: dict) -> list[dict]:
     history = sorted(history, key=lambda x: x["date"])[-20:]
     HISTORY_FILE.write_text(json.dumps(history, indent=2))
     return history
+
+
+def load_json_list(path: Path) -> list[dict]:
+    if not path.exists():
+        return []
+    raw = path.read_text().strip()
+    if not raw:
+        return []
+    try:
+        parsed = json.loads(raw)
+    except json.JSONDecodeError:
+        return []
+    return parsed if isinstance(parsed, list) else []
 
 
 def main() -> None:

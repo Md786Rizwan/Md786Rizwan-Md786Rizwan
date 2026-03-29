@@ -25,8 +25,34 @@ def badge(label: str, value: str, color: str = "00f5ff") -> str:
 def section_projects_table(projects: list[dict]) -> list[str]:
     lines = ["### 🛰️ Engineering Dashboard", "| Project | Stage | Health | Risk | Next Action |", "|---|---|---:|---|---|"]
     for p in projects:
-        lines.append(f"| [{p['name']}]({p['url']}) | {p['stage']} | {p['health_score']}/10 | {p['risk']} | {p['next_action']} |")
+        lines.append(
+            f"| [{p.get('name','unknown')}]({p.get('url','#')}) | {p.get('stage','n/a')} | {p.get('health_score','n/a')}/10 | {p.get('risk','n/a')} | {p.get('next_action','Define next step')} |"
+        )
     return lines
+
+
+def get_next_actions(metrics: dict) -> list[dict]:
+    if "smart_next_actions" in metrics and isinstance(metrics["smart_next_actions"], list):
+        return metrics["smart_next_actions"]
+    if "top_next_actions" in metrics and isinstance(metrics["top_next_actions"], list):
+        return [
+            {
+                "name": a.get("name", "unknown"),
+                "priority": a.get("priority", "medium"),
+                "action": a.get("next_action", "Define next step"),
+            }
+            for a in metrics["top_next_actions"]
+        ]
+    # Fallback from projects if action blocks are missing
+    projects = metrics.get("projects", [])
+    return [
+        {
+            "name": p.get("name", "unknown"),
+            "priority": p.get("priority", "medium"),
+            "action": p.get("next_action", "Define next step"),
+        }
+        for p in projects[:5]
+    ]
 
 
 def render_block(metrics: dict, intel: dict, forecast: dict, learning: dict, experiments: dict, consistency: dict) -> str:
@@ -56,8 +82,10 @@ def render_block(metrics: dict, intel: dict, forecast: dict, learning: dict, exp
         lines.append(f"- **{item['name']}** → maturity: `{item['maturity_level']}` | missing: `{', '.join(item['missing_parts'][:2])}`")
 
     lines.extend(["", "### 🤖 Smart Next Actions"])
-    for i, action in enumerate(metrics.get("smart_next_actions", [])[:5], start=1):
-        lines.append(f"{i}. **{action['name']}** ({action['priority']}) — {action['action']}")
+    for i, action in enumerate(get_next_actions(metrics)[:5], start=1):
+        lines.append(
+            f"{i}. **{action.get('name','unknown')}** ({action.get('priority','medium')}) — {action.get('action','Define next step')}"
+        )
 
     lines.extend(["", "### 📈 Progress Forecast", "| Project | Risk | ETA (days) | Target Date |", "|---|---|---:|---|"])
     for row in forecast.get("forecast", [])[:5]:

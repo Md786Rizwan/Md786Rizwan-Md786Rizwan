@@ -1,4 +1,4 @@
-name: Update Profile Dashboard
+name: Real-Time Portfolio Dashboard
 
 on:
   workflow_dispatch:
@@ -6,51 +6,47 @@ on:
     - cron: "*/30 * * * *"
 
 jobs:
-  update-dashboard:
+  build-dashboard:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pull-requests: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
       - name: Generate metrics
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python profile_dashboard/scripts/activity_fetch.py
-          python profile_dashboard/scripts/metrics.py
+        run: python profile_dashboard/scripts/metrics.py
 
-      - name: Fetch live AI/Tech news
-        env:
-          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
-          NEWS_QUERY: artificial intelligence OR machine learning OR llm
-        run: python profile_dashboard/scripts/news_fetch.py
+      - name: Generate AI intelligence
+        run: python profile_dashboard/scripts/ai_intelligence.py
 
-      - name: Generate AI insights
-        run: python profile_dashboard/scripts/ai_insights.py
+      - name: Generate forecast
+        run: python profile_dashboard/scripts/forecast.py
+
+      - name: Generate learning recommendations
+        run: python profile_dashboard/scripts/learning.py
+
+      - name: Generate experiment tracker
+        run: python profile_dashboard/scripts/experiments.py
 
       - name: Render README
         run: python profile_dashboard/scripts/render_readme.py
 
-      - name: Sync generated README to profile README
+      - name: Sync README
         run: cp profile_dashboard/README.generated.md README.md
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-      
-          git add .
-      
-          git commit -m "chore: auto-update profile dashboard" || echo "No changes"
-      
-          git pull --rebase origin main   # ✅ IMPORTANT FIX
-      
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md profile_dashboard/README.generated.md profile_dashboard/generated/*.json
+          git diff --cached --quiet || git commit -m "chore: auto-update AI portfolio dashboard"
           git push

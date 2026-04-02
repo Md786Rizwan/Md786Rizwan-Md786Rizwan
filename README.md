@@ -18,7 +18,7 @@ I build real-world AI systems and track my growth with measurable progress.
 ![Accuracy Score](https://img.shields.io/badge/Accuracy%20Score-0.87-3da5ff?style=for-the-badge)
 ![Activity Score](https://img.shields.io/badge/Activity%20Score-90-ffa500?style=for-the-badge)
 ![Consistency](https://img.shields.io/badge/Consistency-100%20%28High%29-9b59b6?style=for-the-badge)
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-04-01-2ecc71?style=for-the-badge)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-04-02-2ecc71?style=for-the-badge)
 
 ### 🧩 Featured Projects
 - Laptop Price Predictor (ML)
@@ -53,11 +53,11 @@ I build real-world AI systems and track my growth with measurable progress.
 ### 📈 Progress Forecast
 | Project | Risk | ETA (days) | Target Date |
 |---|---|---:|---|
-| Laptop_Price_Predictor_Using_ML | low | 14 | 2026-04-15 |
-| Phising_Site | low | 14 | 2026-04-15 |
-| Kidney_Disease_Classification_Project | low | 14 | 2026-04-15 |
-| Exploratory-data-Analysis | low | 26 | 2026-04-27 |
-| Educational-chatbot | low | 26 | 2026-04-27 |
+| Laptop_Price_Predictor_Using_ML | low | 14 | 2026-04-16 |
+| Phising_Site | low | 14 | 2026-04-16 |
+| Kidney_Disease_Classification_Project | low | 14 | 2026-04-16 |
+| Exploratory-data-Analysis | low | 26 | 2026-04-28 |
+| Educational-chatbot | low | 26 | 2026-04-28 |
 
 ### 📚 Learning Recommendations
 - Learn feature drift checks for Laptop_Price_Predictor_Using_ML.
@@ -85,11 +85,12 @@ I build real-world AI systems and track my growth with measurable progress.
 - 2026-03-30 → completion `0.6`, activity `100`
 - 2026-03-31 → completion `0.6`, activity `90`
 - 2026-04-01 → completion `0.6`, activity `90`
+- 2026-04-02 → completion `0.6`, activity `90`
 
 ### 📈 Activity Graph
 ![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Md786Rizwan&theme=tokyo-night&hide_border=true)
 
-_Last auto-update: 2026-04-01_
+_Last auto-update: 2026-04-02_
 <!-- DASHBOARD_END -->
 
 ## 🤝 Contact

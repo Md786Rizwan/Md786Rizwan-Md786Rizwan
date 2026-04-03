@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02",
+  "generated_at": "2026-04-03",
   "weekly_score": 100,
   "momentum": "High",
   "history": [
@@ -32,6 +32,12 @@
       "completion_ratio": 0.6,
       "consistency_score": 100,
       "activity_score": 90
+    },
+    {
+      "date": "2026-04-03",
+      "completion_ratio": 0.6,
+      "consistency_score": 100,
+      "activity_score": 80
     }
   ]
 }

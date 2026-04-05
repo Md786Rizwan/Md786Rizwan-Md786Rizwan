@@ -17,8 +17,8 @@ I build real-world AI systems and track my growth with measurable progress.
 ![Completion Ratio](https://img.shields.io/badge/Completion%20Ratio-0.6-7cfc00?style=for-the-badge)
 ![Accuracy Score](https://img.shields.io/badge/Accuracy%20Score-0.87-3da5ff?style=for-the-badge)
 ![Activity Score](https://img.shields.io/badge/Activity%20Score-80-ffa500?style=for-the-badge)
-![Consistency](https://img.shields.io/badge/Consistency-100%20%28High%29-9b59b6?style=for-the-badge)
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-04-04-2ecc71?style=for-the-badge)
+![Consistency](https://img.shields.io/badge/Consistency-0%20%28Low%29-9b59b6?style=for-the-badge)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-04-05-2ecc71?style=for-the-badge)
 
 ### 🧩 Featured Projects
 - Laptop Price Predictor (ML)
@@ -30,11 +30,11 @@ I build real-world AI systems and track my growth with measurable progress.
 ### 🛰️ Engineering Dashboard
 | Project | Stage | Health | Risk | Next Action |
 |---|---|---:|---|---|
-| [Laptop_Price_Predictor_Using_ML](https://github.com/Md786Rizwan/Laptop_Price_Predictor_Using_ML) | mvp | 9/10 | low | Add model comparison (Linear vs RF/XGBoost) |
-| [Phising_Site](https://github.com/Md786Rizwan/Phising_Site) | mvp | 9/10 | low | Add precision-recall analysis + threshold tuning |
-| [Kidney_Disease_Classification_Project](https://github.com/Md786Rizwan/Kidney_Disease_Classification_Project) | mvp | 9/10 | low | Add explainability report (feature importance) |
-| [Exploratory-data-Analysis](https://github.com/Md786Rizwan/Exploratory-data-Analysis) | poc | 7/10 | low | Convert notebooks to reusable EDA report template |
-| [Educational-chatbot](https://github.com/Md786Rizwan/Educational-chatbot) | poc | 7/10 | low | Add evaluation set and response quality rubric |
+| [Laptop_Price_Predictor_Using_ML](https://github.com/Md786Rizwan/Laptop_Price_Predictor_Using_ML) | mvp | 7/10 | low | Add model comparison (Linear vs RF/XGBoost) |
+| [Phising_Site](https://github.com/Md786Rizwan/Phising_Site) | mvp | 7/10 | low | Add precision-recall analysis + threshold tuning |
+| [Kidney_Disease_Classification_Project](https://github.com/Md786Rizwan/Kidney_Disease_Classification_Project) | mvp | 7/10 | low | Add explainability report (feature importance) |
+| [Exploratory-data-Analysis](https://github.com/Md786Rizwan/Exploratory-data-Analysis) | poc | 5/10 | low | Convert notebooks to reusable EDA report template |
+| [Educational-chatbot](https://github.com/Md786Rizwan/Educational-chatbot) | poc | 5/10 | low | Add evaluation set and response quality rubric |
 
 ### 🧠 AI Project Intelligence
 - **Laptop_Price_Predictor_Using_ML** → maturity: `Execution` | missing: `feature drift checks, error analysis dashboard`
@@ -53,11 +53,11 @@ I build real-world AI systems and track my growth with measurable progress.
 ### 📈 Progress Forecast
 | Project | Risk | ETA (days) | Target Date |
 |---|---|---:|---|
-| Laptop_Price_Predictor_Using_ML | low | 14 | 2026-04-18 |
-| Phising_Site | low | 14 | 2026-04-18 |
-| Kidney_Disease_Classification_Project | low | 14 | 2026-04-18 |
-| Exploratory-data-Analysis | low | 26 | 2026-04-30 |
-| Educational-chatbot | low | 26 | 2026-04-30 |
+| Laptop_Price_Predictor_Using_ML | low | 14 | 2026-04-19 |
+| Phising_Site | low | 14 | 2026-04-19 |
+| Kidney_Disease_Classification_Project | low | 14 | 2026-04-19 |
+| Exploratory-data-Analysis | low | 26 | 2026-05-01 |
+| Educational-chatbot | low | 26 | 2026-05-01 |
 
 ### 📚 Learning Recommendations
 - Learn feature drift checks for Laptop_Price_Predictor_Using_ML.
@@ -65,7 +65,7 @@ I build real-world AI systems and track my growth with measurable progress.
 - Learn class imbalance strategy for Kidney_Disease_Classification_Project.
 - Learn automated report pipeline for Exploratory-data-Analysis.
 - Learn response quality evaluation for Educational-chatbot.
-- Study model calibration, cross-validation, and hyperparameter tuning.
+- Practice consistency: commit to 3 focused coding sessions this week.
 
 ### 🧪 Experiment Tracker
 | Project | Version | Metric | Value | Last Change |
@@ -77,21 +77,21 @@ I build real-world AI systems and track my growth with measurable progress.
 | Educational-chatbot | v1.0 | Target metric: Helpful response rate ↑ | 0.84 | 2026-03-28 |
 
 ### 🔄 Consistency Tracker
-- Weekly Momentum: **High**
-- Weekly Score: **100 / 100**
+- Weekly Momentum: **Low**
+- Weekly Score: **0 / 100**
 
 ### 📅 Build Timeline
-- 2026-03-30 → completion `0.6`, activity `100`
 - 2026-03-31 → completion `0.6`, activity `90`
 - 2026-04-01 → completion `0.6`, activity `90`
 - 2026-04-02 → completion `0.6`, activity `90`
 - 2026-04-03 → completion `0.6`, activity `80`
 - 2026-04-04 → completion `0.6`, activity `80`
+- 2026-04-05 → completion `0.6`, activity `80`
 
 ### 📈 Activity Graph
 ![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Md786Rizwan&theme=tokyo-night&hide_border=true)
 
-_Last auto-update: 2026-04-04_
+_Last auto-update: 2026-04-05_
 <!-- DASHBOARD_END -->
 
 ## 🤝 Contact

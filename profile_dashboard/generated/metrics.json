@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07",
+  "generated_at": "2026-04-08",
   "owner": "Md786Rizwan",
   "profile_repo": "Md786Rizwan/Md786Rizwan",
   "kpis": {
@@ -10,7 +10,7 @@
     "activity_score": 70,
     "consistency_score": 0,
     "consistency_label": "Low",
-    "last_updated": "2026-04-07"
+    "last_updated": "2026-04-08"
   },
   "projects": [
     {
@@ -36,7 +36,7 @@
       ],
       "model_version": "v1.2",
       "health_score": 7,
-      "risk": "low",
+      "risk": "medium",
       "is_stalled": false
     },
     {
@@ -62,7 +62,7 @@
       ],
       "model_version": "v1.1",
       "health_score": 7,
-      "risk": "low",
+      "risk": "medium",
       "is_stalled": false
     },
     {
@@ -88,7 +88,7 @@
       ],
       "model_version": "v1.3",
       "health_score": 7,
-      "risk": "low",
+      "risk": "medium",
       "is_stalled": false
     },
     {
@@ -114,7 +114,7 @@
       ],
       "model_version": "v0.9",
       "health_score": 5,
-      "risk": "low",
+      "risk": "medium",
       "is_stalled": false
     },
     {
@@ -140,7 +140,7 @@
       ],
       "model_version": "v1.0",
       "health_score": 5,
-      "risk": "low",
+      "risk": "medium",
       "is_stalled": false
     }
   ],

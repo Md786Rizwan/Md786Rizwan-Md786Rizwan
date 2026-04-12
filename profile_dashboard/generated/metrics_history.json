@@ -82,5 +82,11 @@
     "completion_ratio": 0.6,
     "consistency_score": 0,
     "activity_score": 60
+  },
+  {
+    "date": "2026-04-12",
+    "completion_ratio": 0.6,
+    "consistency_score": 0,
+    "activity_score": 50
   }
 ]

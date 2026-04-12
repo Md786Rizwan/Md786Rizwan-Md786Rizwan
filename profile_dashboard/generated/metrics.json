@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-11",
+  "generated_at": "2026-04-12",
   "owner": "Md786Rizwan",
   "profile_repo": "Md786Rizwan/Md786Rizwan",
   "kpis": {
     "active_projects": 5,
-    "stalled_projects": 0,
+    "stalled_projects": 5,
     "completion_ratio": 0.6,
     "accuracy_score": 0.87,
-    "activity_score": 60,
+    "activity_score": 50,
     "consistency_score": 0,
     "consistency_label": "Low",
-    "last_updated": "2026-04-11"
+    "last_updated": "2026-04-12"
   },
   "projects": [
     {
@@ -35,9 +35,9 @@
         "api deployment"
       ],
       "model_version": "v1.2",
-      "health_score": 7,
+      "health_score": 4,
       "risk": "medium",
-      "is_stalled": false
+      "is_stalled": true
     },
     {
       "name": "Phising_Site",
@@ -61,9 +61,9 @@
         "monitoring alerts"
       ],
       "model_version": "v1.1",
-      "health_score": 7,
+      "health_score": 4,
       "risk": "medium",
-      "is_stalled": false
+      "is_stalled": true
     },
     {
       "name": "Kidney_Disease_Classification_Project",
@@ -87,9 +87,9 @@
         "model explainability report"
       ],
       "model_version": "v1.3",
-      "health_score": 7,
+      "health_score": 4,
       "risk": "medium",
-      "is_stalled": false
+      "is_stalled": true
     },
     {
       "name": "Exploratory-data-Analysis",
@@ -113,9 +113,9 @@
         "reusable templates"
       ],
       "model_version": "v0.9",
-      "health_score": 5,
+      "health_score": 2,
       "risk": "medium",
-      "is_stalled": false
+      "is_stalled": true
     },
     {
       "name": "Educational-chatbot",
@@ -139,9 +139,9 @@
         "latency optimization"
       ],
       "model_version": "v1.0",
-      "health_score": 5,
+      "health_score": 2,
       "risk": "medium",
-      "is_stalled": false
+      "is_stalled": true
     }
   ],
   "smart_next_actions": [

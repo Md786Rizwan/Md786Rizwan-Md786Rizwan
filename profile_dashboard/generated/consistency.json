@@ -1,14 +1,8 @@
 {
-  "generated_at": "2026-04-17",
+  "generated_at": "2026-04-18",
   "weekly_score": 0,
   "momentum": "Low",
   "history": [
-    {
-      "date": "2026-04-10",
-      "completion_ratio": 0.6,
-      "consistency_score": 0,
-      "activity_score": 60
-    },
     {
       "date": "2026-04-11",
       "completion_ratio": 0.6,
@@ -50,6 +44,12 @@
       "completion_ratio": 0.6,
       "consistency_score": 0,
       "activity_score": 40
+    },
+    {
+      "date": "2026-04-18",
+      "completion_ratio": 0.6,
+      "consistency_score": 0,
+      "activity_score": 30
     }
   ]
 }

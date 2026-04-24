@@ -16,9 +16,9 @@ I build real-world AI systems and track my growth with measurable progress.
 ![Active Projects](https://img.shields.io/badge/Active%20Projects-5-00f5ff?style=for-the-badge)
 ![Completion Ratio](https://img.shields.io/badge/Completion%20Ratio-0.6-7cfc00?style=for-the-badge)
 ![Accuracy Score](https://img.shields.io/badge/Accuracy%20Score-0.87-3da5ff?style=for-the-badge)
-![Activity Score](https://img.shields.io/badge/Activity%20Score-20-ffa500?style=for-the-badge)
+![Activity Score](https://img.shields.io/badge/Activity%20Score-10-ffa500?style=for-the-badge)
 ![Consistency](https://img.shields.io/badge/Consistency-0%20%28Low%29-9b59b6?style=for-the-badge)
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-04-23-2ecc71?style=for-the-badge)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-04-24-2ecc71?style=for-the-badge)
 
 ### 🧩 Featured Projects
 - Laptop Price Predictor (ML)
@@ -53,11 +53,11 @@ I build real-world AI systems and track my growth with measurable progress.
 ### 📈 Progress Forecast
 | Project | Risk | ETA (days) | Target Date |
 |---|---|---:|---|
-| Laptop_Price_Predictor_Using_ML | high | 25 | 2026-05-18 |
-| Phising_Site | high | 25 | 2026-05-18 |
-| Kidney_Disease_Classification_Project | high | 25 | 2026-05-18 |
-| Exploratory-data-Analysis | high | 37 | 2026-05-30 |
-| Educational-chatbot | high | 37 | 2026-05-30 |
+| Laptop_Price_Predictor_Using_ML | high | 25 | 2026-05-19 |
+| Phising_Site | high | 25 | 2026-05-19 |
+| Kidney_Disease_Classification_Project | high | 25 | 2026-05-19 |
+| Exploratory-data-Analysis | high | 37 | 2026-05-31 |
+| Educational-chatbot | high | 37 | 2026-05-31 |
 
 ### 📚 Learning Recommendations
 - Learn feature drift checks for Laptop_Price_Predictor_Using_ML.
@@ -81,17 +81,17 @@ I build real-world AI systems and track my growth with measurable progress.
 - Weekly Score: **0 / 100**
 
 ### 📅 Build Timeline
-- 2026-04-18 → completion `0.6`, activity `30`
 - 2026-04-19 → completion `0.6`, activity `30`
 - 2026-04-20 → completion `0.6`, activity `30`
 - 2026-04-21 → completion `0.6`, activity `20`
 - 2026-04-22 → completion `0.6`, activity `20`
 - 2026-04-23 → completion `0.6`, activity `20`
+- 2026-04-24 → completion `0.6`, activity `10`
 
 ### 📈 Activity Graph
 ![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Md786Rizwan&theme=tokyo-night&hide_border=true)
 
-_Last auto-update: 2026-04-23_
+_Last auto-update: 2026-04-24_
 <!-- DASHBOARD_END -->
 
 ## 🤝 Contact

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23",
+  "generated_at": "2026-04-24",
   "owner": "Md786Rizwan",
   "profile_repo": "Md786Rizwan/Md786Rizwan",
   "kpis": {
@@ -7,10 +7,10 @@
     "stalled_projects": 5,
     "completion_ratio": 0.6,
     "accuracy_score": 0.87,
-    "activity_score": 20,
+    "activity_score": 10,
     "consistency_score": 0,
     "consistency_label": "Low",
-    "last_updated": "2026-04-23"
+    "last_updated": "2026-04-24"
   },
   "projects": [
     {

@@ -1,11 +1,5 @@
 [
   {
-    "date": "2026-04-12",
-    "completion_ratio": 0.6,
-    "consistency_score": 0,
-    "activity_score": 50
-  },
-  {
     "date": "2026-04-13",
     "completion_ratio": 0.6,
     "consistency_score": 0,
@@ -115,6 +109,12 @@
   },
   {
     "date": "2026-05-01",
+    "completion_ratio": 0.6,
+    "consistency_score": 0,
+    "activity_score": 0
+  },
+  {
+    "date": "2026-05-02",
     "completion_ratio": 0.6,
     "consistency_score": 0,
     "activity_score": 0

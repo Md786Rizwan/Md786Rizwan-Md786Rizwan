@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-08-19",
+  "generated_at": "2026-08-20",
   "forecast": [
     {
       "name": "Laptop_Price_Predictor_Using_ML",
       "risk": "high",
       "eta_days": 25,
-      "eta_date": "2026-09-13"
+      "eta_date": "2026-09-14"
     },
     {
       "name": "Phising_Site",
       "risk": "high",
       "eta_days": 25,
-      "eta_date": "2026-09-13"
+      "eta_date": "2026-09-14"
     },
     {
       "name": "Kidney_Disease_Classification_Project",
       "risk": "high",
       "eta_days": 25,
-      "eta_date": "2026-09-13"
+      "eta_date": "2026-09-14"
     },
     {
       "name": "Exploratory-data-Analysis",
       "risk": "high",
       "eta_days": 37,
-      "eta_date": "2026-09-25"
+      "eta_date": "2026-09-26"
     },
     {
       "name": "Educational-chatbot",
       "risk": "high",
       "eta_days": 37,
-      "eta_date": "2026-09-25"
+      "eta_date": "2026-09-26"
     }
   ]
 }

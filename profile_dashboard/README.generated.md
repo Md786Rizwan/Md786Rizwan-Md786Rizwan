@@ -18,7 +18,7 @@ I build real-world AI systems and track my growth with measurable progress.
 ![Accuracy Score](https://img.shields.io/badge/Accuracy%20Score-0.87-3da5ff?style=for-the-badge)
 ![Activity Score](https://img.shields.io/badge/Activity%20Score-0-ffa500?style=for-the-badge)
 ![Consistency](https://img.shields.io/badge/Consistency-0%20%28Low%29-9b59b6?style=for-the-badge)
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-08-21-2ecc71?style=for-the-badge)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-08-22-2ecc71?style=for-the-badge)
 
 ### 🧩 Featured Projects
 - Laptop Price Predictor (ML)
@@ -53,11 +53,11 @@ I build real-world AI systems and track my growth with measurable progress.
 ### 📈 Progress Forecast
 | Project | Risk | ETA (days) | Target Date |
 |---|---|---:|---|
-| Laptop_Price_Predictor_Using_ML | high | 25 | 2026-09-15 |
-| Phising_Site | high | 25 | 2026-09-15 |
-| Kidney_Disease_Classification_Project | high | 25 | 2026-09-15 |
-| Exploratory-data-Analysis | high | 37 | 2026-09-27 |
-| Educational-chatbot | high | 37 | 2026-09-27 |
+| Laptop_Price_Predictor_Using_ML | high | 25 | 2026-09-16 |
+| Phising_Site | high | 25 | 2026-09-16 |
+| Kidney_Disease_Classification_Project | high | 25 | 2026-09-16 |
+| Exploratory-data-Analysis | high | 37 | 2026-09-28 |
+| Educational-chatbot | high | 37 | 2026-09-28 |
 
 ### 📚 Learning Recommendations
 - Learn feature drift checks for Laptop_Price_Predictor_Using_ML.
@@ -81,17 +81,17 @@ I build real-world AI systems and track my growth with measurable progress.
 - Weekly Score: **0 / 100**
 
 ### 📅 Build Timeline
-- 2026-08-16 → completion `0.6`, activity `0`
 - 2026-08-17 → completion `0.6`, activity `0`
 - 2026-08-18 → completion `0.6`, activity `0`
 - 2026-08-19 → completion `0.6`, activity `0`
 - 2026-08-20 → completion `0.6`, activity `0`
 - 2026-08-21 → completion `0.6`, activity `0`
+- 2026-08-22 → completion `0.6`, activity `0`
 
 ### 📈 Activity Graph
 ![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Md786Rizwan&theme=tokyo-night&hide_border=true)
 
-_Last auto-update: 2026-08-21_
+_Last auto-update: 2026-08-22_
 <!-- DASHBOARD_END -->
 
 ## 🤝 Contact
